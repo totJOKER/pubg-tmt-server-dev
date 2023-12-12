@@ -9,8 +9,8 @@ app.use(bodyParser());
 
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
-    password: '',
+    user: 'v95292xy_pubg',
+    password: 'pubg-TMT-dev-12',
     database: 'pubg-tmt'
 });
 
