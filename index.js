@@ -11,7 +11,7 @@ const db = mysql.createConnection({
     host: 'localhost',
     user: 'v95292xy_pubg',
     password: 'pubg-TMT-dev-12',
-    database: 'pubg-tmt'
+    database: 'v95292xy_pubg'
 });
 
 db.connect(err => {
