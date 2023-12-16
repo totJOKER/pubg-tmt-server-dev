@@ -8,7 +8,7 @@ app.use(cors());
 app.use(bodyParser());
 
 const db = mysql.createConnection({
-    host: '5.35.82.3',
+    host: '5.35.82.3:3306',
     user: 'v95292xy_pubg',
     password: 'pubg-TMT-dev-12',
     database: 'v95292xy_pubg'
