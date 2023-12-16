@@ -22,7 +22,7 @@ db.connect(err => {
     }
 })
 
-app.listen(8000, () => console.log(`server started in port 8000`));
+app.listen(3306, () => console.log(`server started in port 3306`));
 
 app.get('/api', (req, res) => {
     res.send('server work');
